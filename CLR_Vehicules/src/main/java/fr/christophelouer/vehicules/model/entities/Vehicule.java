@@ -1,15 +1,15 @@
-package net.etrs.vehicule.model.entities;
+package fr.christophelouer.vehicules.model.entities;
 
 import java.util.UUID;
 
+import fr.christophelouer.vehicules.model.exceptions.VehiculeException;
+import fr.christophelouer.vehicules.model.references.C;
+import fr.christophelouer.vehicules.model.references.Marque;
+import fr.christophelouer.vehicules.model.references.TypeCarburant;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import net.etrs.vehicule.model.exceptions.VehiculeException;
-import net.etrs.vehicule.model.references.C;
-import net.etrs.vehicule.model.references.Marque;
-import net.etrs.vehicule.model.references.TypeCarburant;
 
 @EqualsAndHashCode(of="id")
 @ToString

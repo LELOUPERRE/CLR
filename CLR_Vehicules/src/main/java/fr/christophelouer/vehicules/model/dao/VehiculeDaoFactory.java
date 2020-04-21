@@ -1,9 +1,9 @@
-package net.etrs.vehicule.model.dao;
+package fr.christophelouer.vehicules.model.dao;
 
 import java.util.UUID;
 
 import common.dao.Dao;
-import net.etrs.vehicule.model.entities.Vehicule;
+import fr.christophelouer.vehicules.model.entities.Vehicule;
 
 public final class VehiculeDaoFactory {
 

@@ -1,9 +1,9 @@
-package net.etrs.vehicule.model.entities;
+package fr.christophelouer.vehicules.model.entities;
 
+import fr.christophelouer.vehicules.model.references.Marque;
+import fr.christophelouer.vehicules.model.references.TypeCarburant;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import net.etrs.vehicule.model.references.Marque;
-import net.etrs.vehicule.model.references.TypeCarburant;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class EntitieFactory {

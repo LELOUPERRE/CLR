@@ -1,13 +1,13 @@
-package net.etrs.vehicule.model.dao;
+package fr.christophelouer.vehicules.model.dao;
 
 import java.util.UUID;
 
 import common.dao.Dao;
 import common.dao.exceptions.DaoException;
-import net.etrs.vehicule.model.entities.EntitieFactory;
-import net.etrs.vehicule.model.entities.Vehicule;
-import net.etrs.vehicule.model.references.Marque;
-import net.etrs.vehicule.model.references.TypeCarburant;
+import fr.christophelouer.vehicules.model.entities.EntitieFactory;
+import fr.christophelouer.vehicules.model.entities.Vehicule;
+import fr.christophelouer.vehicules.model.references.Marque;
+import fr.christophelouer.vehicules.model.references.TypeCarburant;
 
 public abstract class AbstractVehiculeDao implements Dao<Vehicule, UUID> {
 	@Override

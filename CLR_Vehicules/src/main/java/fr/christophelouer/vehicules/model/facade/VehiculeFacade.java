@@ -1,9 +1,9 @@
-package net.etrs.vehicule.model.facade;
+package fr.christophelouer.vehicules.model.facade;
 
 import java.util.List;
 
-import net.etrs.vehicule.model.entities.Vehicule;
-import net.etrs.vehicule.model.exceptions.VehiculeException;
+import fr.christophelouer.vehicules.model.entities.Vehicule;
+import fr.christophelouer.vehicules.model.exceptions.VehiculeException;
 
 public interface VehiculeFacade {
 	/**

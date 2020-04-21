@@ -1,4 +1,4 @@
-package net.etrs.vehicule.model.exceptions;
+package fr.christophelouer.vehicules.model.exceptions;
 
 @SuppressWarnings("serial")
 public class VehiculeException extends Exception {

@@ -1,4 +1,4 @@
-package net.etrs.vehicule.model.references;
+package fr.christophelouer.vehicules.model.references;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

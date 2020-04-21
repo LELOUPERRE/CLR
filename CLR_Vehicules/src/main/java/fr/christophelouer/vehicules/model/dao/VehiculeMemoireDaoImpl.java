@@ -1,4 +1,4 @@
-package net.etrs.vehicule.model.dao;
+package fr.christophelouer.vehicules.model.dao;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,10 +7,10 @@ import java.util.Objects;
 import java.util.UUID;
 
 import common.dao.exceptions.DaoException;
+import fr.christophelouer.vehicules.model.entities.Vehicule;
+import fr.christophelouer.vehicules.model.references.C;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import net.etrs.vehicule.model.entities.Vehicule;
-import net.etrs.vehicule.model.references.C;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class VehiculeMemoireDaoImpl extends AbstractVehiculeDao {

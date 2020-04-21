@@ -1,4 +1,4 @@
-package net.etrs.vehicule.model.entities;
+package fr.christophelouer.vehicules.model.entities;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

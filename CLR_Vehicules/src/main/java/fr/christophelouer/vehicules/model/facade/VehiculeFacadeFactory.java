@@ -1,4 +1,4 @@
-package net.etrs.vehicule.model.facade;
+package fr.christophelouer.vehicules.model.facade;
 
 public final class VehiculeFacadeFactory {
 

@@ -1,4 +1,4 @@
-package net.etrs.vehicule.model.facade;
+package fr.christophelouer.vehicules.model.facade;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.UUID;
 
 import common.dao.Dao;
 import common.dao.exceptions.DaoException;
-import net.etrs.vehicule.model.dao.VehiculeDaoFactory;
-import net.etrs.vehicule.model.entities.Vehicule;
-import net.etrs.vehicule.model.exceptions.VehiculeException;
-import net.etrs.vehicule.model.references.C;
+import fr.christophelouer.vehicules.model.dao.VehiculeDaoFactory;
+import fr.christophelouer.vehicules.model.entities.Vehicule;
+import fr.christophelouer.vehicules.model.exceptions.VehiculeException;
+import fr.christophelouer.vehicules.model.references.C;
 
 public class VehiculeFacadeImpl implements VehiculeFacade {
 	private Dao<Vehicule, UUID> dao = VehiculeDaoFactory.daoVehiculeFactory();
