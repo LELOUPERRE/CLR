@@ -1,0 +1,5 @@
+net.etrs.vehicule.model.dao
+net.etrs.vehicule.model.entities
+net.etrs.vehicule.model.exceptions
+net.etrs.vehicule.model.facade
+net.etrs.vehicule.model.references

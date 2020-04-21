@@ -1,0 +1,13 @@
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\entities\Camion.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\entities\AbstractVehicule.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\dao\VehiculeDaoFactory.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\references\C.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\references\MarqueVehicule.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\dao\AbstractVehiculeDao.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\exceptions\VehiculeException.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\facade\VehiculeFacade.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\entities\Voiture.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\facade\VehiculeFacadeImpl.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\dao\VehiculeMemoireDaoImpl.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\facade\VehiculeFacadeSingletonFactory.java
+C:\PRSI\STAGES\2019\EtudeCDI\WKS\CLR_PhareOuestVehicule\src\main\java\net\etrs\vehicule\model\references\TypeCarburant.java
