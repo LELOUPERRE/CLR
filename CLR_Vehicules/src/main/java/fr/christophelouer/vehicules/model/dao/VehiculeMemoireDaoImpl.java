@@ -78,10 +78,5 @@ public class VehiculeMemoireDaoImpl extends AbstractVehiculeDao {
 		return Collections.unmodifiableList(persist);
 	}
 
-	@Override
-	public void update(Vehicule arg0) throws DaoException {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

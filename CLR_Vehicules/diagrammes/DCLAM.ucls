@@ -1,141 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="net.etrs.vehicule.model.entities.AbstractVehicule" 
-    project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/entities/AbstractVehicule.java" binary="false" 
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="fr.christophelouer.vehicules.model.entities.Vehicule" project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/entities/Vehicule.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="510" y="105"/>    
+    <position height="-1" width="-1" x="1001" y="129"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="net.etrs.vehicule.model.entities.Camion" project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/entities/Camion.java" binary="false" 
+  <class id="2" language="java" name="fr.christophelouer.vehicules.model.entities.Voiture" project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/entities/Voiture.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="421" y="280"/>    
+    <position height="-1" width="-1" x="881" y="356"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="net.etrs.vehicule.model.entities.Voiture" project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/entities/Voiture.java" binary="false" 
+  <class id="3" language="java" name="fr.christophelouer.vehicules.model.entities.Camion" project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/entities/Camion.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="587" y="280"/>    
+    <position height="-1" width="-1" x="1128" y="356"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="net.etrs.vehicule.model.dao.AbstractVehiculeDao" project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/dao/AbstractVehiculeDao.java" binary="false" 
+  <class id="4" language="java" name="fr.christophelouer.vehicules.model.entities.EntitieFactory" 
+    project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/entities/EntitieFactory.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="882" y="80"/>    
+    <position height="-1" width="-1" x="1002" y="482"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="net.etrs.vehicule.model.dao.VehiculeDaoFactory" project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/dao/VehiculeDaoFactory.java" binary="false" 
+  <class id="5" language="java" name="fr.christophelouer.vehicules.model.dao.AbstractVehiculeDao" 
+    project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/dao/AbstractVehiculeDao.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="993" y="211"/>    
+    <position height="-1" width="-1" x="517" y="233"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="net.etrs.vehicule.model.dao.VehiculeMemoireDaoImpl" 
-    project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/dao/VehiculeMemoireDaoImpl.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="757" y="255"/>    
+  <class id="6" language="java" name="fr.christophelouer.vehicules.model.dao.VehiculeMemoireDaoImpl" 
+    project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/dao/VehiculeMemoireDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="614" y="425"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="7" language="java" name="net.etrs.vehicule.model.facade.VehiculeFacade" 
-    project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/facade/VehiculeFacade.java" binary="false" 
+  <interface id="7" language="java" name="common.dao.Dao" project="CLR_Vehicules" 
+    file="C:/PRSI/STAGES/PRSI-STUDIO/.m2/repository/net/ent-etrs/CLR_Dao/1.2.1/CLR_Dao-1.2.1.jar" binary="true" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="203" y="195"/>    
+    <position height="-1" width="-1" x="517" y="97"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="fr.christophelouer.vehicules.model.facade.VehiculeFacade" 
+    project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/facade/VehiculeFacade.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="126" y="214"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="8" language="java" name="net.etrs.vehicule.model.facade.VehiculeFacadeImpl" 
-    project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/facade/VehiculeFacadeImpl.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="205" y="357"/>    
+  <class id="9" language="java" name="fr.christophelouer.vehicules.model.facade.VehiculeFacadeFactory" 
+    project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/facade/VehiculeFacadeFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="185" y="80"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="net.etrs.vehicule.model.facade.VehiculeFacadeSingletonFactory" 
-    project="CLR_PhareOuestVehicule" 
-    file="/CLR_PhareOuestVehicule/src/main/java/net/etrs/vehicule/model/facade/VehiculeFacadeSingletonFactory.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="276" x="97" y="11"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+  <class id="10" language="java" name="fr.christophelouer.vehicules.model.facade.VehiculeFacadeImpl" 
+    project="CLR_Vehicules" 
+    file="/CLR_Vehicules/src/main/java/fr/christophelouer/vehicules/model/facade/VehiculeFacadeImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="125" y="383"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="10">    
-    <end type="SOURCE" refId="8"/>    
+  <realization id="11">    
+    <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="7"/>  
   </realization>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
   <association id="12">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="13" name="instanceVehiculeFacade"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="15">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="16">    
+    <bendpoint x="784" y="260"/>    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="13" name="persist">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="14" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+      <attribute id="17" name="persist"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="15">    
+  <generalization id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="21">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <association id="16">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="17" name="instanceVehiculeFacade">        
-        <position height="0" width="0" x="-20" y="6"/>      
-      </attribute>      
-      <multiplicity id="18" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-20" y="6"/>      
-      </multiplicity>    
+  <association id="22">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="23" name="dao"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="19">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

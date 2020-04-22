@@ -1,5 +1,6 @@
-net.etrs.vehicule.model.dao
-net.etrs.vehicule.model.entities
-net.etrs.vehicule.model.exceptions
-net.etrs.vehicule.model.facade
-net.etrs.vehicule.model.references
+fr.christophelouer.model.facade
+fr.christophelouer.vehicules.model.dao
+fr.christophelouer.vehicules.model.entities
+fr.christophelouer.vehicules.model.exceptions
+fr.christophelouer.vehicules.model.facade
+fr.christophelouer.vehicules.model.references
