@@ -42,24 +42,14 @@ public class VehiculeFacadeImpl implements VehiculeFacade {
 
 	}
 
-	public static void main(String[] args) throws VehiculeException {
-		VehiculeFacade vf = VehiculeFacadeFactory.getInstanceVehiculeFacade();
-		int i = 0;
-		for (Vehicule v : vf.getListeVehicules(100)) {
-			i++;
-			System.out.println(i + " - " + v.toString());
-		}
-	} 
-
 	@Override
 	public List<Vehicule> getListeVehiculesRoulant(int nombreVehicule) throws VehiculeException {
 		List<Vehicule> vehicules = this.getListeVehicules(nombreVehicule);
 		try {
-			Random r = new Random();
 			for (Vehicule v : vehicules) {
 				if(!v.isDemarre()) {
 					v.demarrer();
-					v.accelerer(r.nextInt(C.VITESSE_MAX+1));
+					v.accelerer(calculerVitesse());
 				}
 			}
 		} catch (VehiculeException e) {
@@ -69,5 +59,15 @@ public class VehiculeFacadeImpl implements VehiculeFacade {
 
 		return vehicules;
 
+	}
+
+	private int calculerVitesse() {
+		int resultat = 0;
+		Random r = new Random();
+		do {
+			resultat = r.nextInt(C.VITESSE_MAX+1);
+		} while (resultat < 0);
+		
+		return resultat;
 	}
 }

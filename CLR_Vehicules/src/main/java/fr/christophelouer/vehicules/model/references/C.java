@@ -22,5 +22,6 @@ public final class C {
 	public static final String VEHICULE_DEMARRE_EXCEPTION = "Le véhicule est démarré";
 
 	public static final int VITESSE_MAX = 200;
+	public static final int VITESSE_MINI = 5;
 	public static final String FACADE_PAS_DE_VEHICULE_DISPO_EXCEPTION = "Pas de véhicule disponible";
 }
