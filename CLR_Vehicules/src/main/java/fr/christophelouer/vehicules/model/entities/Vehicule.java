@@ -85,10 +85,10 @@ public abstract class Vehicule {
 	 * roule à une vitesse plus basse que celle demandée.
 	 */
 	public void decelerer(int vitesse) throws VehiculeException {
-		if(this.demarre) {
+		if(!this.demarre) {
 			throw new VehiculeException(C.VEHICULE_NON_DEMARRE_EXCEPTION);
 		}
-		if(this.vitesse > vitesse) {
+		if(vitesse > this.vitesse) {
 			throw new VehiculeException(C.VITESSE_TROP_BASSE_EXCEPTION);
 		}
 		this.vitesse = vitesse;
