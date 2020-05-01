@@ -1,4 +1,4 @@
-package fr.christophelouer.common.view.util;
+package fr.christophelouer.utilconsole.common.view.util;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.christophelouer.common.Constantes;
+import fr.christophelouer.utilconsole.common.Constantes;
 
 import java.util.Objects;
 

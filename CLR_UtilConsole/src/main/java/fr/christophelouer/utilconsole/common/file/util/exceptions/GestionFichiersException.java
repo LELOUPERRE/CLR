@@ -1,4 +1,4 @@
-package fr.christophelouer.common.file.util.exceptions;
+package fr.christophelouer.utilconsole.common.file.util.exceptions;
 
 @SuppressWarnings("serial")
 public class GestionFichiersException extends Exception {

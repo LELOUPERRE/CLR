@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.christophelouer.common.file.util;
+package fr.christophelouer.utilconsole.common.file.util;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -14,8 +14,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.christophelouer.common.Constantes;
-import fr.christophelouer.common.file.util.exceptions.GestionFichiersException;
+import fr.christophelouer.utilconsole.common.Constantes;
+import fr.christophelouer.utilconsole.common.file.util.exceptions.GestionFichiersException;
 
 /**
  * Regroupe les méthodes utilitaires pour la gestion des fichiers.

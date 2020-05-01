@@ -1,4 +1,4 @@
-package fr.christophelouer.common.file.util;
+package fr.christophelouer.utilconsole.common.file.util;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import fr.christophelouer.common.file.util.GestionFichiers;
-import fr.christophelouer.common.file.util.exceptions.GestionFichiersException;
+import fr.christophelouer.utilconsole.common.file.util.GestionFichiers;
+import fr.christophelouer.utilconsole.common.file.util.exceptions.GestionFichiersException;
 
 class GestionFichiersTest {
 	

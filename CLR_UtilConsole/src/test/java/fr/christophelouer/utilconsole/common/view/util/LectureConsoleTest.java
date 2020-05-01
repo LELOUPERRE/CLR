@@ -1,4 +1,4 @@
-package fr.christophelouer.common.view.util;
+package fr.christophelouer.utilconsole.common.view.util;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,10 @@
-package fr.christophelouer.common.view.util;
+package fr.christophelouer.utilconsole.common.view.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 
-import fr.christophelouer.common.Constantes;
+import fr.christophelouer.utilconsole.common.Constantes;
 
 public final class Formatage {
 
