@@ -39,8 +39,8 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>net.ent-etrs</groupId>
-			<artifactId>generic-commons-tools</artifactId>
+			<groupId>fr.christophelouer</groupId>
+			<artifactId>CLR_generic-commons-tools</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 		<dependency>
@@ -109,16 +109,12 @@
 		</repository>
 	</distributionManagement>
  -->	
-	<distributionManagement>
+	<repositories>
+		<!-- <repository> <id>private</id> <url>file:C:\PRSI\STAGES\Repo</url> 
+			</repository> -->
 		<repository>
 			<id>le.loup.erre</id>
 			<url>dav:https://webdav.hidrive.ionos.com/users/le.loup.erre/Mes_documents/echange/Enguerran/repo/</url>
 		</repository>
-	</distributionManagement>
-<!--   	<distributionManagement>
-		<repository>
-			<id>private</id>
-			<url>file:C:\PRSI\STAGES\Repo</url>
-		</repository>
-	</distributionManagement>
- --></project>
+	</repositories>
+</project>

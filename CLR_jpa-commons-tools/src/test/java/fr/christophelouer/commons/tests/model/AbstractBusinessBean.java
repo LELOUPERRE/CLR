@@ -6,8 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Version;
 
+import fr.christophelouer.commons.uuid.GeneratedUUID;
 import lombok.Getter;
-import net.entetrs.commons.uuid.GeneratedUUID;
 
 @SuppressWarnings("serial")
 @MappedSuperclass

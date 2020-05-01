@@ -5,10 +5,11 @@ import java.util.function.Supplier;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.entetrs.commons.logs.LogUtils;
-import net.entetrs.commons.logs.LogUtils.LogLevel;
-import net.entetrs.commons.uuid.GeneratedUUID;
-import net.entetrs.commons.uuid.UUIDInjector;
+import fr.christophelouer.commons.logs.LogUtils;
+import fr.christophelouer.commons.logs.LogUtils.LogLevel;
+import fr.christophelouer.commons.uuid.GeneratedUUID;
+import fr.christophelouer.commons.uuid.UUIDInjector;
+
 
 /**
  * EntityFactory générique qui permet d'instancier la classe paramétrée T et

@@ -8,9 +8,9 @@ import java.util.UUID;
 import org.junit.Test;
 
 import fr.christophelouer.commons.jpa.EntityFactory;
+import fr.christophelouer.commons.uuid.GeneratedUUID;
 import lombok.ToString;
 import lombok.extern.apachecommons.CommonsLog;
-import net.entetrs.commons.uuid.GeneratedUUID;
 
 /**
  * testeur d'EntityFactory générique et d'injection UUID.

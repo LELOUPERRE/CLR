@@ -19,8 +19,9 @@ import javax.persistence.criteria.Root;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import net.entetrs.commons.logs.LogUtils;
-import net.entetrs.commons.logs.LogUtils.LogLevel;
+import fr.christophelouer.commons.logs.LogUtils;
+import fr.christophelouer.commons.logs.LogUtils.LogLevel;
+
 
 /**
  * classe abstraite générique CRUD (DAO) pour les entités, paramétrée par
