@@ -1,4 +1,4 @@
-fr.christophelouer.common
-fr.christophelouer.common.file.util
-fr.christophelouer.common.file.util.exceptions
-fr.christophelouer.common.view.util
+fr.christophelouer.utilconsole.common
+fr.christophelouer.utilconsole.common.file.util
+fr.christophelouer.utilconsole.common.file.util.exceptions
+fr.christophelouer.utilconsole.common.view.util

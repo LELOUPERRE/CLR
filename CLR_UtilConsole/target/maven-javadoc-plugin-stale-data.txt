@@ -1,0 +1,20 @@
+cmd.exe
+/X
+/C
+"C:\PRSI\STAGES\PRSI-STUDIO\1_8_0_162\jre\..\bin\javadoc.exe @options @argfile"
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\allclasses-frame.html = 1588352721150
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\allclasses-noframe.html = 1588352721152
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\argfile = 1588352719260
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\constant-values.html = 1588352721045
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\deprecated-list.html = 1588352721144
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\help-doc.html = 1588352721162
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\index-all.html = 1588352721137
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\index.html = 1588352721154
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\options = 1588352719256
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\overview-frame.html = 1588352720969
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\overview-summary.html = 1588352721158
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\overview-tree.html = 1588352721121
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\package-list = 1588352720964
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\script.js = 1588352721163
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\serialized-form.html = 1588352721055
+C:\PRSI\STAGES\Git\CLR\CLR\CLR_UtilConsole\target\apidocs\stylesheet.css = 1588350901088
