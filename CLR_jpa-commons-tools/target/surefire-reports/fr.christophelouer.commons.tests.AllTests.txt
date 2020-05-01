@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fr.christophelouer.commons.tests.AllTests
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.191 s - in fr.christophelouer.commons.tests.AllTests
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.428 s - in fr.christophelouer.commons.tests.AllTests

@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.christophelouer</groupId>
@@ -102,19 +103,15 @@
 
 	</build>
 
-<!-- 	<distributionManagement>
-		<repository>
-			<id>nexus</id>
-			<url>http://svr-svn:8080/nexus/content/repositories/releases</url>
-		</repository>
-	</distributionManagement>
- -->	
-	<repositories>
+	<distributionManagement>
+		<!-- <repository> <id>nexus</id> <url>http://svr-svn:8080/nexus/content/repositories/releases</url> 
+			</repository> -->
 		<!-- <repository> <id>private</id> <url>file:C:\PRSI\STAGES\Repo</url> 
 			</repository> -->
 		<repository>
 			<id>le.loup.erre</id>
 			<url>dav:https://webdav.hidrive.ionos.com/users/le.loup.erre/Mes_documents/echange/Enguerran/repo/</url>
 		</repository>
-	</repositories>
+	</distributionManagement>
+
 </project>
