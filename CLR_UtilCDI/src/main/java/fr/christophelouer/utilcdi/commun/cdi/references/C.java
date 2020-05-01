@@ -1,6 +1,6 @@
-package fr.christophelouer.commun.cdi.references;
+package fr.christophelouer.utilcdi.commun.cdi.references;
 
-import fr.christophelouer.commun.cdi.annotations.MethodWeldExecute;
+import fr.christophelouer.utilcdi.commun.cdi.annotations.MethodWeldExecute;
 
 public final class C {
 

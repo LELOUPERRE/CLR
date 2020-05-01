@@ -1,4 +1,4 @@
-package fr.christophelouer.commun.cdi.annotations;
+package fr.christophelouer.utilcdi.commun.cdi.annotations;
 
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;

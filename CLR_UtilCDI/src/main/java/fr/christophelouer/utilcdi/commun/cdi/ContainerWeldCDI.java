@@ -1,4 +1,4 @@
-package fr.christophelouer.commun.cdi;
+package fr.christophelouer.utilcdi.commun.cdi;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -8,8 +8,8 @@ import java.util.Optional;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 
-import fr.christophelouer.commun.cdi.annotations.MethodWeldExecute;
-import fr.christophelouer.commun.cdi.references.C;
+import fr.christophelouer.utilcdi.commun.cdi.annotations.MethodWeldExecute;
+import fr.christophelouer.utilcdi.commun.cdi.references.C;
 
 /**
  * Propose les services permettant de lancer un conteneur Weld. Weld est

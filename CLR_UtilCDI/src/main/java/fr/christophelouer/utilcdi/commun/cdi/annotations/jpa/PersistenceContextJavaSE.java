@@ -1,4 +1,4 @@
-package fr.christophelouer.commun.cdi.annotations.jpa;
+package fr.christophelouer.utilcdi.commun.cdi.annotations.jpa;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
