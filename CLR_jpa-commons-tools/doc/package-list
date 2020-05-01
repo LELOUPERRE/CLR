@@ -1,0 +1,4 @@
+net.entetrs.commons.jpa
+net.entetrs.commons.tests
+net.entetrs.commons.tests.dao
+net.entetrs.commons.tests.model
