@@ -1,4 +1,4 @@
-package net.etrs.commun.cdi;
+package fr.christophelouer.commun.cdi;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;
@@ -6,7 +6,7 @@ import javax.enterprise.inject.spi.InjectionPoint;
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 
-import net.etrs.commun.cdi.annotations.jpa.PersistenceContextJavaSE;
+import fr.christophelouer.commun.cdi.annotations.jpa.PersistenceContextJavaSE;
 
 @ApplicationScoped
 public class Producer {

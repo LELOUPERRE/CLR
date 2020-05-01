@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.ent-etrs</groupId>
+	<groupId>fr.christophelouer</groupId>
 	<artifactId>CLR_UtilCDI</artifactId>
 	<version>1.0.2</version>
 
@@ -55,12 +55,25 @@
 		</dependency>
 	</dependencies>
 
- 
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-webdav-jackrabbit</artifactId>
+				<version>1.0-beta-7</version>
+			</extension>
+		</extensions>
+
+	</build>
+
 	<distributionManagement>
+		<!-- <repository> <id>nexus</id> <url>http://172.16.128.212:8081/repository/etrs-releases</url> 
+			</repository> -->
 		<repository>
-			<id>nexus</id>
-			<url>http://172.16.128.212:8081/repository/etrs-releases</url>
+			<id>le.loup.erre</id>
+			<url>dav:https://webdav.hidrive.ionos.com/users/le.loup.erre/Mes_documents/echange/Enguerran/repo/</url>
 		</repository>
+
 	</distributionManagement>
 
 

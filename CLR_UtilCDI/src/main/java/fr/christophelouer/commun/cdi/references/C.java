@@ -1,6 +1,6 @@
-package net.etrs.commun.cdi.references;
+package fr.christophelouer.commun.cdi.references;
 
-import net.etrs.commun.cdi.annotations.MethodWeldExecute;
+import fr.christophelouer.commun.cdi.annotations.MethodWeldExecute;
 
 public final class C {
 

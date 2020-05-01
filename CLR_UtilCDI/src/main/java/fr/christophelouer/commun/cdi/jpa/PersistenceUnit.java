@@ -1,4 +1,4 @@
-package net.etrs.commun.cdi.jpa;
+package fr.christophelouer.commun.cdi.jpa;
 
 import java.io.Serializable;
 

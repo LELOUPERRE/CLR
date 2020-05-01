@@ -1,4 +1,4 @@
-package net.etrs.commun.cdi.exceptions;
+package fr.christophelouer.commun.cdi.exceptions;
 
 public class ExecutionWeldException extends Exception {
 
