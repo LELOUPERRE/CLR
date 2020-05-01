@@ -3,4 +3,4 @@
  * @author Christophe LOUËR
  *
  */
-package common.file.util;
+package fr.christophelouer.common.file.util;

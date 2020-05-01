@@ -1,4 +1,4 @@
-package common.view.util;
+package fr.christophelouer.common.view.util;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -6,9 +6,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Objects;
 
-import common.Constantes;
+import fr.christophelouer.common.Constantes;
+
+import java.util.Objects;
 
 /**
  * Cette classe utilitaire propose diverses méthodes d'affichage sur console.

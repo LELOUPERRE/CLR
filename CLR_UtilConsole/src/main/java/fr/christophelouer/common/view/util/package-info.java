@@ -5,4 +5,4 @@
  * @author christophe.louer
  *
  */
-package common.view.util;
+package fr.christophelouer.common.view.util;

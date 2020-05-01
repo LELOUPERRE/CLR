@@ -1,4 +1,4 @@
-package common.view.util;
+package fr.christophelouer.common.view.util;
 
 public final class Fichier {
 

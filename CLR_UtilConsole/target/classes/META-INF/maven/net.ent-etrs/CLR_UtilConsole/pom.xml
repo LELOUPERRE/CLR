@@ -80,12 +80,27 @@
 				</executions>
 			</plugin>
 		</plugins>
+
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-webdav-jackrabbit</artifactId>
+				<version>1.0-beta-7</version>
+			</extension>
+		</extensions>
+
 	</build>
 	<distributionManagement>
-		<repository>
+<!-- 		<repository>
 			<id>nexus</id>
 			<url>http://172.16.128.212:8081/repository/etrs-releases</url>
 		</repository>
-	</distributionManagement>
+ -->	
+ 		<repository>
+			<id>le.loup.erre</id>
+			<url>dav:https://webdav.hidrive.ionos.com/users/le.loup.erre/Mes_documents/echange/Enguerran/repo/</url>
+		</repository>
+ 
+ 	</distributionManagement>
 
 </project>

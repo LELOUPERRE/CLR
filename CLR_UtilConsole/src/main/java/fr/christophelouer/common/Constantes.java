@@ -1,4 +1,4 @@
-package common;
+package fr.christophelouer.common;
 
 /**
  * Classe utilitaire contenant l'ensemble des constantes du module.
