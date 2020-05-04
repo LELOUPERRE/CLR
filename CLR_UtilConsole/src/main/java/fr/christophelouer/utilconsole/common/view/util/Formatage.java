@@ -15,8 +15,8 @@ public final class Formatage {
 	 * Formate une date selon le pattern indiqué.
 	 * Si le pattern est invalide, la date sera affichée selon le pattern defini
 	 * par défaut.
-	 * @param date
-	 * @param pattern
+	 * @param date Date à formater.
+	 * @param pattern Pattern pour la date à formater.
 	 * @return la date formatée selon le pattern indique.
 	 */
 	public static String formaterDate(final Date date,final String pattern) {

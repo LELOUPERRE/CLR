@@ -63,23 +63,23 @@
 						</dependency>
 					</dependencies>
 				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>attach-javadocs</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 			</plugins>
+
 		</pluginManagement>
 
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
 
 		<extensions>
 			<extension>
@@ -91,16 +91,13 @@
 
 	</build>
 	<distributionManagement>
-<!-- 		<repository>
-			<id>nexus</id>
-			<url>http://172.16.128.212:8081/repository/etrs-releases</url>
-		</repository>
- -->	
- 		<repository>
+		<!-- <repository> <id>nexus</id> <url>http://172.16.128.212:8081/repository/etrs-releases</url> 
+			</repository> -->
+		<repository>
 			<id>le.loup.erre</id>
 			<url>dav:https://webdav.hidrive.ionos.com/users/le.loup.erre/Mes_documents/echange/Enguerran/repo/</url>
 		</repository>
- 
- 	</distributionManagement>
+
+	</distributionManagement>
 
 </project>

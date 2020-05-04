@@ -70,7 +70,7 @@ public final class LectureConsole {
 	 * Lecture d'une chaine de caractère.
 	 * 
 	 * @param entete message affiché avant la saisie.
-	 * @return
+	 * @return Chaine de caractère saisie.
 	 */
 	public static String lectureChaineCaracteres(final String entete) {
 		AffichageConsole.afficherMessageSansSautLigne(entete);
@@ -273,7 +273,7 @@ public final class LectureConsole {
 	/**
 	 * Lecture d'un entier. Si la valeur saisie n'est pas un entier, le message
 	 * "Choix invalide" est affiché, et la méthode attend une nouvelle saisie.
-	 * @param entete
+	 * @param entete chaine affichée avant la saisie.
 	 * @return l'entier saisi.
 	 */
 	public static int lectureEntier(String entete) {
